@@ -1,0 +1,79 @@
+{
+  "_from": "@caohenghu/vue-colorpicker",
+  "_id": "@caohenghu/vue-colorpicker@1.2.4",
+  "_inBundle": false,
+  "_integrity": "sha512-2YvCiBOnA9IANRJtw9rqIhVeJZPRPgO9gmFi3qfNgs1IEl7PFlcRx17VD1UF2L97PEk5GaxmrfCdCY15L09UQg==",
+  "_location": "/@caohenghu/vue-colorpicker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@caohenghu/vue-colorpicker",
+    "name": "@caohenghu/vue-colorpicker",
+    "escapedName": "@caohenghu%2fvue-colorpicker",
+    "scope": "@caohenghu",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@caohenghu/vue-colorpicker/-/vue-colorpicker-1.2.4.tgz",
+  "_shasum": "1595f47b9e25b278c73318a812c0df9e989a90c0",
+  "_spec": "@caohenghu/vue-colorpicker",
+  "_where": "D:\\OpenServer\\domains\\english",
+  "author": {
+    "name": "caohenghu",
+    "email": "caohenghu@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/caohenghu/vue-colorpicker/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Colorpicker of Vue Components",
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.2.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "file-loader": "^4.2.0",
+    "gh-pages": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "url-loader": "^2.1.0",
+    "vue-loader": "^15.5.1",
+    "vue-template-compiler": "^2.5.22",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/caohenghu/vue-colorpicker#readme",
+  "keywords": [
+    "vue",
+    "colorpicker",
+    "color"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "@caohenghu/vue-colorpicker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caohenghu/vue-colorpicker.git"
+  },
+  "scripts": {
+    "gh": "node build/gh.js",
+    "hot": "webpack-dev-server --env.config local --env.local",
+    "pro": "rm -rf dist && webpack --env.config pro --env.pro"
+  },
+  "version": "1.2.4"
+}
